@@ -94,6 +94,10 @@ header {
     margin: 20px 0;
 }
 
+.right-container-selected {
+    background-color: lightgray;
+}
+
 .start {
     background: rgb(59, 59, 59);
     color: white;
@@ -101,7 +105,7 @@ header {
     font-size: 1.75rem;
 }
 
-.information {
+.bg_clear {
     background-color: transparent;
 }
 
@@ -123,7 +127,92 @@ header {
     padding: 8px 0;
 }
 
-.right-container h3 {
+h3 {
     color:rgb(59, 59, 59);
     font-size: 1.75rem;
+}
+
+h4 {
+    color: gray;
+    padding: 8px 0;
+}
+
+p {
+    color: gray;
+}
+
+.learning {
+    background-color: lightgray;
+}
+
+.learn-header {
+    padding: 32px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(59, 59, 59);
+}
+
+.learn-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 32px 32px;
+    margin: 0 72px;
+}
+
+.learn-card {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr;
+    align-items: start;
+    margin-bottom: 32px;
+}
+
+.card-desc {
+    padding: 16px 0 24px 16px
+}
+
+.thesis {
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.thesis-photo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: start;
+    width: 90%;
+}
+
+.thesis-photo p {
+    font-size: 1rem;
+    padding: 8px 0;
+}
+
+.thesis blockquote {
+    line-height: 1.5;
+    color: lightgray;
+    padding: 8px 0 32px 0;
+}
+
+.thesis-video {
+    align-self: center;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.mid {
+    align-self: center;
+}
+
+.foot-note {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid gray;
+    padding: 16px 16px 32px 24px;
+}
+
+.foot-right {
+    justify-self: end;
 }
